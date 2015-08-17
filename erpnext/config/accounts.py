@@ -43,32 +43,32 @@ def get_data():
 				},
 			]
 		},
-		{
-			"label": _("Tools"),
-			"icon": "icon-wrench",
-			"items": [
-				{
-					"type": "doctype",
-					"name": "Bank Reconciliation",
-					"description": _("Update bank payment dates with journals.")
-				},
-				{
-					"type": "doctype",
-					"name": "Payment Reconciliation",
-					"description": _("Match non-linked Invoices and Payments.")
-				},
-				{
-					"type": "doctype",
-					"name": "Period Closing Voucher",
-					"description": _("Close Balance Sheet and book Profit or Loss.")
-				},
-				{
-					"type": "doctype",
-					"name": "Payment Tool",
-					"description": _("Create Payment Entries against Orders or Invoices.")
-				},
-			]
-		},
+#		{
+#			"label": _("Tools"),
+#			"icon": "icon-wrench",
+#			"items": [
+#				{
+#					"type": "doctype",
+#					"name": "Bank Reconciliation",
+#					"description": _("Update bank payment dates with journals.")
+#				},
+#				{
+#					"type": "doctype",
+#					"name": "Payment Reconciliation",
+#					"description": _("Match non-linked Invoices and Payments.")
+#				},
+#				{
+#					"type": "doctype",
+#					"name": "Period Closing Voucher",
+#					"description": _("Close Balance Sheet and book Profit or Loss.")
+#				},
+#				{
+#					"type": "doctype",
+#					"name": "Payment Tool",
+#					"description": _("Create Payment Entries against Orders or Invoices.")
+#				},
+#			]
+#		},
 		{
 			"label": _("Setup"),
 			"icon": "icon-cog",
@@ -236,48 +236,48 @@ def get_data():
 			"label": _("Standard Reports"),
 			"icon": "icon-list",
 			"items": [
-				{
-					"type": "report",
-					"name": "Bank Reconciliation Statement",
-					"is_query_report": True,
-					"doctype": "Journal Entry"
-				},
-				{
-					"type": "report",
-					"name": "Ordered Items To Be Billed",
-					"is_query_report": True,
-					"doctype": "Sales Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Delivered Items To Be Billed",
-					"is_query_report": True,
-					"doctype": "Sales Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Purchase Order Items To Be Billed",
-					"is_query_report": True,
-					"doctype": "Purchase Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Received Items To Be Billed",
-					"is_query_report": True,
-					"doctype": "Purchase Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Bank Clearance Summary",
-					"is_query_report": True,
-					"doctype": "Journal Entry"
-				},
-				{
-					"type": "report",
-					"name": "Payment Period Based On Invoice Date",
-					"is_query_report": True,
-					"doctype": "Journal Entry"
-				},
+#				{
+#					"type": "report",
+#					"name": "Bank Reconciliation Statement",
+#					"is_query_report": True,
+#					"doctype": "Journal Entry"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Ordered Items To Be Billed",
+#					"is_query_report": True,
+#					"doctype": "Sales Invoice"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Delivered Items To Be Billed",
+#					"is_query_report": True,
+#					"doctype": "Sales Invoice"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Purchase Order Items To Be Billed",
+#					"is_query_report": True,
+#					"doctype": "Purchase Invoice"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Received Items To Be Billed",
+#					"is_query_report": True,
+#					"doctype": "Purchase Invoice"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Bank Clearance Summary",
+#					"is_query_report": True,
+#					"doctype": "Journal Entry"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Payment Period Based On Invoice Date",
+#					"is_query_report": True,
+#					"doctype": "Journal Entry"
+#				},
 				{
 					"type": "report",
 					"name": "Sales Partners Commission",
@@ -296,63 +296,63 @@ def get_data():
 					"is_query_report": True,
 					"doctype": "Purchase Invoice"
 				},
-				{
-					"type": "report",
-					"name": "Budget Variance Report",
-					"is_query_report": True,
-					"doctype": "Cost Center"
-				},
-				{
-					"type": "report",
-					"name": "Purchase Invoice Trends",
-					"is_query_report": True,
-					"doctype": "Purchase Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Sales Invoice Trends",
-					"is_query_report": True,
-					"doctype": "Sales Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Accounts Receivable Summary",
-					"doctype": "Sales Invoice",
-					"is_query_report": True
-				},
-				{
-					"type": "report",
-					"name": "Accounts Payable Summary",
-					"doctype": "Purchase Invoice",
-					"is_query_report": True
-				},
-				{
-					"type": "report",
-					"is_query_report": True,
-					"name": "Customer Credit Balance",
-					"doctype": "Customer"
-				},
+#				{
+#					"type": "report",
+#					"name": "Budget Variance Report",
+#					"is_query_report": True,
+#					"doctype": "Cost Center"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Purchase Invoice Trends",
+#					"is_query_report": True,
+#					"doctype": "Purchase Invoice"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Sales Invoice Trends",
+#					"is_query_report": True,
+#					"doctype": "Sales Invoice"
+#				},
+#				{
+#					"type": "report",
+#					"name": "Accounts Receivable Summary",
+#					"doctype": "Sales Invoice",
+#					"is_query_report": True
+#				},
+#				{
+#					"type": "report",
+#					"name": "Accounts Payable Summary",
+#					"doctype": "Purchase Invoice",
+#					"is_query_report": True
+#				},
+#				{
+#					"type": "report",
+#					"is_query_report": True,
+#					"name": "Customer Credit Balance",
+#					"doctype": "Customer"
+#				},
 			]
 		},
-		{
-			"label": _("Help"),
-			"icon": "icon-facetime-video",
-			"items": [
-				{
-					"type": "help",
-					"label": _("Chart of Accounts"),
-					"youtube_id": "DyR-DST-PyA"
-				},
-				{
-					"type": "help",
-					"label": _("Opening Accounting Balance"),
-					"youtube_id": "kdgM20Q-q68"
-				},
-				{
-					"type": "help",
-					"label": _("Setting up Taxes"),
-					"youtube_id": "nQ1zZdPgdaQ"
-				}
-			]
-		}
+#		{
+#			"label": _("Help"),
+#			"icon": "icon-facetime-video",
+#			"items": [
+#				{
+#					"type": "help",
+#					"label": _("Chart of Accounts"),
+#					"youtube_id": "DyR-DST-PyA"
+#				},
+#				{
+#					"type": "help",
+#					"label": _("Opening Accounting Balance"),
+#					"youtube_id": "kdgM20Q-q68"
+#				},
+#				{
+#					"type": "help",
+#					"label": _("Setting up Taxes"),
+#					"youtube_id": "nQ1zZdPgdaQ"
+#				}
+#			]
+#		}
 	]
